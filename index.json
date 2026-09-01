@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "design-taste-frontend",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/taste-skill",
+      "name": "design-taste-frontend",
+      "description": "Anti-Slop-Skill für Landingpages, Portfolios und Redesigns — liest den Auftrag, wählt die Design-Richtung und vermeidet generische KI-Optik, mit Pre-Flight-Check vor der Fertigmeldung.",
+      "category": "design",
+      "tags": [
+        "frontend",
+        "landingpage",
+        "anti-slop"
+      ],
+      "featured": true
+    },
+    {
+      "id": "redesign-existing-projects",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/redesign-skill",
+      "name": "redesign-existing-projects",
+      "description": "Hebt bestehende Websites und Apps auf Premium-Niveau — Audit zuerst, erkennt generische KI-Muster, lässt die Funktionalität unangetastet.",
+      "category": "design",
+      "tags": [
+        "redesign",
+        "audit",
+        "frontend"
+      ],
+      "featured": true
+    },
+    {
+      "id": "minimalist-ui",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/minimalist-skill",
+      "name": "minimalist-ui",
+      "description": "Cleane, editoriale Oberflächen — warme Monochrom-Palette, typografischer Kontrast, flache Bento-Grids, keine Verläufe oder schweren Schatten.",
+      "category": "design",
+      "tags": [
+        "minimalismus",
+        "ui"
+      ],
+      "featured": false
+    },
+    {
+      "id": "industrial-brutalist-ui",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/brutalist-skill",
+      "name": "industrial-brutalist-ui",
+      "description": "Rohe, mechanische Oberflächen zwischen Schweizer Typografie und Terminal-Ästhetik — für datenlastige Dashboards und Portfolios.",
+      "category": "design",
+      "tags": [
+        "brutalism",
+        "dashboard",
+        "ui"
+      ],
+      "featured": false
+    },
+    {
+      "id": "high-end-visual-design",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/soft-skill",
+      "name": "high-end-visual-design",
+      "description": "Legt feste Schriften, Abstände, Schatten und Animationen fest, die eine Seite hochwertig statt generisch wirken lassen.",
+      "category": "design",
+      "tags": [
+        "agency-look",
+        "visual-design"
+      ],
+      "featured": false
+    },
+    {
+      "id": "brandkit",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/brandkit",
+      "name": "brandkit",
+      "description": "Bildgenerierung für Brand-Guidelines-Boards, Logo-Systeme und Identity-Decks in mehreren Stilrichtungen.",
+      "category": "design",
+      "tags": [
+        "branding",
+        "bildgenerierung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "imagegen-frontend-web",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/imagegen-frontend-web",
+      "name": "imagegen-frontend-web",
+      "description": "Erzeugt Design-Referenzbilder für Websites — pro Sektion ein eigenes Bild, mit Variation bei Layout und Hero-Größe.",
+      "category": "design",
+      "tags": [
+        "bildgenerierung",
+        "web",
+        "referenzbilder"
+      ],
+      "featured": false
+    },
+    {
+      "id": "imagegen-frontend-mobile",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/imagegen-frontend-mobile",
+      "name": "imagegen-frontend-mobile",
+      "description": "Erzeugt App-native Screen-Konzepte für iOS und Android inklusive Phone-Mockup — reine Bildgenerierung, kein Code.",
+      "category": "design",
+      "tags": [
+        "bildgenerierung",
+        "mobile"
+      ],
+      "featured": false
+    },
+    {
+      "id": "stitch-design-taste",
+      "repo": "Leonxlnx/taste-skill",
+      "subdir": "skills/stitch-skill",
+      "name": "stitch-design-taste",
+      "description": "Erzeugt eine DESIGN.md mit festen Farb-, Typo- und Layout-Regeln für Google Stitch, damit Agents konsistent bleiben.",
+      "category": "design",
+      "tags": [
+        "design-system",
+        "stitch"
+      ],
+      "featured": false
+    },
+    {
+      "id": "apple-design",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/apple-design",
+      "name": "apple-design",
+      "description": "Apples Herangehensweise an Interface-Design und physisches Motion, übertragen auf das Web — Gesten, Springs, Materialien, Typografie.",
+      "category": "motion",
+      "tags": [
+        "gesten",
+        "springs",
+        "apple"
+      ],
+      "featured": true
+    },
+    {
+      "id": "emil-design-eng",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/emil-design-eng",
+      "name": "emil-design-eng",
+      "description": "Hauptskill des Motion-Stacks — UI-Feinschliff, Komponenten-Details und die unsichtbaren Details, die Software hochwertig wirken lassen.",
+      "category": "motion",
+      "tags": [
+        "ui-feinschliff",
+        "motion"
+      ],
+      "featured": true
+    },
+    {
+      "id": "animate",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/animate",
+      "name": "animate",
+      "description": "Baut eine Animation von Grund auf — Werkzeug, Eigenschaften, Kurve und Dauer in der Reihenfolge, die entscheidet, ob sie sich richtig anfühlt.",
+      "category": "motion",
+      "tags": [
+        "animation",
+        "web"
+      ],
+      "featured": false
+    },
+    {
+      "id": "animate-expo",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/animate-expo",
+      "name": "animate-expo",
+      "description": "Animationen in React Native/Expo mit Reanimated, Gesture Handler und Expo Router — inklusive Haptics und Thread-Wahl.",
+      "category": "motion",
+      "tags": [
+        "react-native",
+        "expo",
+        "animation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "animation-vocabulary",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/animation-vocabulary",
+      "name": "animation-vocabulary",
+      "description": "Nachschlagewerk, das eine vage Beschreibung eines Motion-Effekts in den passenden Fachbegriff übersetzt.",
+      "category": "motion",
+      "tags": [
+        "glossar",
+        "benennung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ask-sonner",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/ask-sonner",
+      "name": "ask-sonner",
+      "description": "Anleitung für die React-Toast-Bibliothek Sonner — Einrichtung, Promise-/Loading-Toasts, Styling, Theming, Fehlersuche.",
+      "category": "motion",
+      "tags": [
+        "toast",
+        "sonner",
+        "react"
+      ],
+      "featured": false
+    },
+    {
+      "id": "find-animation-opportunities",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/find-animation-opportunities",
+      "name": "find-animation-opportunities",
+      "description": "Durchsucht eine Codebase read-only nach Stellen, die animieren sollten, und weist zurück, was es nicht sollte.",
+      "category": "motion",
+      "tags": [
+        "audit",
+        "animation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "improve-animations",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/improve-animations",
+      "name": "improve-animations",
+      "description": "Prüft die Motion-Codebase wie ein Senior-Berater und liefert einen priorisierten Umsetzungsplan, ohne selbst zu implementieren.",
+      "category": "motion",
+      "tags": [
+        "audit",
+        "plan",
+        "animation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "pick-ui-library",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/pick-ui-library",
+      "name": "pick-ui-library",
+      "description": "Wählt aus einer kuratierten Liste die passende Bibliothek für eine Frontend-Aufgabe — Toasts, Charts, OTP, Command-Menu, DnD und mehr.",
+      "category": "motion",
+      "tags": [
+        "bibliothek",
+        "frontend"
+      ],
+      "featured": true
+    },
+    {
+      "id": "prototype",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/prototype",
+      "name": "prototype",
+      "description": "Baut mehrere sichtbar unterschiedliche Varianten eines UI-Teils hinter einem visuellen Umschalter zum Durchklicken.",
+      "category": "motion",
+      "tags": [
+        "prototyping",
+        "varianten"
+      ],
+      "featured": false
+    },
+    {
+      "id": "review-animations",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/review-animations",
+      "name": "review-animations",
+      "description": "Bewertet Animations- und Motion-Code gegen einen hohen Qualitätsmaßstab — Default ist Beanstandung, Freigabe muss verdient werden.",
+      "category": "motion",
+      "tags": [
+        "code-review",
+        "animation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "write-swift",
+      "repo": "emilkowalski/skills",
+      "subdir": "skills/write-swift",
+      "name": "write-swift",
+      "description": "Wie man modernes Swift gut schreibt — Value Types, Swift-6-Concurrency, Protokolle/Generics, API-Design, Performance.",
+      "category": "motion",
+      "tags": [
+        "swift",
+        "concurrency"
+      ],
+      "featured": false
+    },
+    {
+      "id": "accessibility",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/accessibility",
+      "name": "accessibility",
+      "description": "Prüft und verbessert Web-Barrierefreiheit nach WCAG 2.2 — Screenreader, Tastaturnavigation, Kontraste.",
+      "category": "web-qualitaet",
+      "tags": [
+        "a11y",
+        "wcag"
+      ],
+      "featured": false
+    },
+    {
+      "id": "best-practices",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/best-practices",
+      "name": "best-practices",
+      "description": "Wendet moderne Best Practices für Sicherheit, Kompatibilität und Codequalität auf Web-Projekte an.",
+      "category": "web-qualitaet",
+      "tags": [
+        "sicherheit",
+        "codequalitaet"
+      ],
+      "featured": false
+    },
+    {
+      "id": "core-web-vitals",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/core-web-vitals",
+      "name": "core-web-vitals",
+      "description": "Optimiert LCP, INP und CLS anhand von Feld- und Labordaten für bessere Page Experience.",
+      "category": "web-qualitaet",
+      "tags": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "featured": false
+    },
+    {
+      "id": "performance",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/performance",
+      "name": "performance",
+      "description": "Optimiert Ladezeit und Performance einer Web-Seite anhand konkreter Ursachenanalyse.",
+      "category": "web-qualitaet",
+      "tags": [
+        "performance",
+        "ladezeit"
+      ],
+      "featured": false
+    },
+    {
+      "id": "seo",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/seo",
+      "name": "seo",
+      "description": "Technisches On-Page-SEO — Meta-Tags, strukturierte Daten, Sitemap-Optimierung.",
+      "category": "web-qualitaet",
+      "tags": [
+        "seo",
+        "meta-tags"
+      ],
+      "featured": false
+    },
+    {
+      "id": "web-quality-audit",
+      "repo": "addyosmani/web-quality-skills",
+      "subdir": "skills/web-quality-audit",
+      "name": "web-quality-audit",
+      "description": "Ein Audit-Lauf für Performance, Accessibility, SEO und Best Practices zusammen, belegt mit Messwerten statt Vermutungen.",
+      "category": "web-qualitaet",
+      "tags": [
+        "audit",
+        "lighthouse"
+      ],
+      "featured": true
+    },
+    {
+      "id": "threejs-fundamentals",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-fundamentals",
+      "name": "threejs-fundamentals",
+      "description": "Szenen-Setup, Kameras, Renderer, Object3D-Hierarchie und Koordinatensysteme in three.js.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "grundlagen"
+      ],
+      "featured": true
+    },
+    {
+      "id": "threejs-geometry",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-geometry",
+      "name": "threejs-geometry",
+      "description": "Geometrie-Erzeugung in three.js — eingebaute Formen, BufferGeometry, eigene Geometrie, Instancing.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "geometrie"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-materials",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-materials",
+      "name": "threejs-materials",
+      "description": "Materialien in three.js — PBR, Basic, Phong, Shader-Materialien und ihre Eigenschaften.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "materialien"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-lighting",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-lighting",
+      "name": "threejs-lighting",
+      "description": "Licht-Typen, Schatten und Environment-Lighting in three.js, inklusive Performance-Tuning.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "licht"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-textures",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-textures",
+      "name": "threejs-textures",
+      "description": "Texturen, UV-Mapping, Environment-Maps und Textur-Einstellungen in three.js.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "texturen"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-loaders",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-loaders",
+      "name": "threejs-loaders",
+      "description": "Laden von 3D-Modellen (GLTF), Texturen und HDR-Environments inklusive asynchroner Lade-Patterns.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "gltf",
+        "loader"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-animation",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-animation",
+      "name": "threejs-animation",
+      "description": "Keyframe- und Skelett-Animation, Morph Targets und Animation-Mixing in three.js.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "animation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-shaders",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-shaders",
+      "name": "threejs-shaders",
+      "description": "GLSL-Shader, ShaderMaterial und Uniforms für eigene Visual-Effekte in three.js.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "glsl",
+        "shader"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-postprocessing",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-postprocessing",
+      "name": "threejs-postprocessing",
+      "description": "Post-Processing mit EffectComposer — Bloom, Depth of Field, Screen-Space-Effekte.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "postprocessing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "threejs-interaction",
+      "repo": "CloudAI-X/threejs-skills",
+      "subdir": "skills/threejs-interaction",
+      "name": "threejs-interaction",
+      "description": "Raycasting, Controls und Maus-/Touch-Eingabe für interaktive 3D-Szenen in three.js.",
+      "category": "3d",
+      "tags": [
+        "three.js",
+        "interaktion",
+        "raycasting"
+      ],
+      "featured": false
+    },
+    {
+      "id": "brainstorming",
+      "repo": "obra/superpowers",
+      "subdir": "skills/brainstorming",
+      "name": "brainstorming",
+      "description": "Pflicht vor jeder kreativen Arbeit — klärt Nutzerabsicht, Anforderungen und Design, bevor implementiert wird.",
+      "category": "methodik",
+      "tags": [
+        "brainstorming",
+        "anforderungen"
+      ],
+      "featured": true
+    },
+    {
+      "id": "writing-plans",
+      "repo": "obra/superpowers",
+      "subdir": "skills/writing-plans",
+      "name": "writing-plans",
+      "description": "Für Aufgaben mit Spezifikation: schreibt den Umsetzungsplan, bevor Code angefasst wird.",
+      "category": "methodik",
+      "tags": [
+        "planung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "executing-plans",
+      "repo": "obra/superpowers",
+      "subdir": "skills/executing-plans",
+      "name": "executing-plans",
+      "description": "Führt einen geschriebenen Umsetzungsplan in einer separaten Session mit Review-Checkpoints aus.",
+      "category": "methodik",
+      "tags": [
+        "planung",
+        "ausfuehrung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "systematic-debugging",
+      "repo": "obra/superpowers",
+      "subdir": "skills/systematic-debugging",
+      "name": "systematic-debugging",
+      "description": "Systematisches Vorgehen bei jedem Bug oder Testfehler, bevor ein Fix vorgeschlagen wird.",
+      "category": "methodik",
+      "tags": [
+        "debugging"
+      ],
+      "featured": false
+    },
+    {
+      "id": "test-driven-development",
+      "repo": "obra/superpowers",
+      "subdir": "skills/test-driven-development",
+      "name": "test-driven-development",
+      "description": "Test-Driven Development für jedes Feature und jeden Bugfix — Test vor Implementierung.",
+      "category": "methodik",
+      "tags": [
+        "tdd",
+        "tests"
+      ],
+      "featured": true
+    },
+    {
+      "id": "using-git-worktrees",
+      "repo": "obra/superpowers",
+      "subdir": "skills/using-git-worktrees",
+      "name": "using-git-worktrees",
+      "description": "Stellt einen isolierten Arbeitsbereich sicher — native Tools oder git-worktree-Fallback.",
+      "category": "methodik",
+      "tags": [
+        "git",
+        "worktree"
+      ],
+      "featured": false
+    },
+    {
+      "id": "requesting-code-review",
+      "repo": "obra/superpowers",
+      "subdir": "skills/requesting-code-review",
+      "name": "requesting-code-review",
+      "description": "Prüft vor dem Merge, ob die Arbeit die Anforderungen tatsächlich erfüllt.",
+      "category": "methodik",
+      "tags": [
+        "code-review"
+      ],
+      "featured": false
+    },
+    {
+      "id": "receiving-code-review",
+      "repo": "obra/superpowers",
+      "subdir": "skills/receiving-code-review",
+      "name": "receiving-code-review",
+      "description": "Verlangt technische Prüfung statt performativer Zustimmung beim Umgang mit Review-Feedback.",
+      "category": "methodik",
+      "tags": [
+        "code-review"
+      ],
+      "featured": false
+    },
+    {
+      "id": "subagent-driven-development",
+      "repo": "obra/superpowers",
+      "subdir": "skills/subagent-driven-development",
+      "name": "subagent-driven-development",
+      "description": "Führt Umsetzungspläne mit unabhängigen Teilaufgaben über Subagents in derselben Session aus.",
+      "category": "methodik",
+      "tags": [
+        "subagents",
+        "planung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "verification-before-completion",
+      "repo": "obra/superpowers",
+      "subdir": "skills/verification-before-completion",
+      "name": "verification-before-completion",
+      "description": "Verlangt echte Verifikationsbefehle und deren Ausgabe, bevor Arbeit als fertig oder bestanden gemeldet wird.",
+      "category": "methodik",
+      "tags": [
+        "verifikation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "repo": "obra/superpowers",
+      "subdir": "skills/finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "description": "Entscheidet nach abgeschlossener Implementierung, wie die Arbeit integriert wird (Merge, PR, Cleanup).",
+      "category": "methodik",
+      "tags": [
+        "git",
+        "branch"
+      ],
+      "featured": false
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "repo": "obra/superpowers",
+      "subdir": "skills/dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "description": "Für zwei oder mehr unabhängige Aufgaben ohne geteilten State — parallele statt sequenzielle Bearbeitung.",
+      "category": "methodik",
+      "tags": [
+        "subagents",
+        "parallel"
+      ],
+      "featured": false
+    },
+    {
+      "id": "using-superpowers",
+      "repo": "obra/superpowers",
+      "subdir": "skills/using-superpowers",
+      "name": "using-superpowers",
+      "description": "Legt fest, wie zu Beginn jeder Konversation Skills gefunden und vor jeder Antwort angewendet werden.",
+      "category": "methodik",
+      "tags": [
+        "einstieg",
+        "workflow"
+      ],
+      "featured": false
+    },
+    {
+      "id": "writing-skills",
+      "repo": "obra/superpowers",
+      "subdir": "skills/writing-skills",
+      "name": "writing-skills",
+      "description": "Für das Anlegen, Bearbeiten und Verifizieren neuer Skills vor dem Ausrollen.",
+      "category": "methodik",
+      "tags": [
+        "skill-erstellung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "product-marketing",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/product-marketing",
+      "name": "product-marketing",
+      "description": "Legt das Produkt-Kontextdokument an (Zielgruppe, Positionierung) — Grundlage, auf der alle anderen Marketing-Skills aufbauen.",
+      "category": "marketing",
+      "tags": [
+        "positionierung",
+        "zielgruppe"
+      ],
+      "featured": true
+    },
+    {
+      "id": "copywriting",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/copywriting",
+      "name": "copywriting",
+      "description": "Schreibt oder überarbeitet Marketing-Copy für Landingpages, Pricing- und Feature-Seiten.",
+      "category": "marketing",
+      "tags": [
+        "copywriting",
+        "landingpage"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cro",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/cro",
+      "name": "cro",
+      "description": "Optimiert die Conversion-Rate einer Marketing-Seite oder eines Formulars.",
+      "category": "marketing",
+      "tags": [
+        "cro",
+        "conversion"
+      ],
+      "featured": false
+    },
+    {
+      "id": "launch",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/launch",
+      "name": "launch",
+      "description": "Plant Produkt-Launch, Feature-Ankündigung oder Release-Strategie inklusive Go-to-Market.",
+      "category": "marketing",
+      "tags": [
+        "launch",
+        "gtm"
+      ],
+      "featured": false
+    },
+    {
+      "id": "pricing",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/pricing",
+      "name": "pricing",
+      "description": "Unterstützt bei Preisentscheidungen, Paketierung und Monetarisierungsstrategie.",
+      "category": "marketing",
+      "tags": [
+        "pricing",
+        "paketierung"
+      ],
+      "featured": false
+    },
+    {
+      "id": "emails",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/emails",
+      "name": "emails",
+      "description": "Baut oder optimiert automatisierte E-Mail-Sequenzen und Lifecycle-Flows.",
+      "category": "marketing",
+      "tags": [
+        "email",
+        "sequenzen"
+      ],
+      "featured": false
+    },
+    {
+      "id": "community-marketing",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/community-marketing",
+      "name": "community-marketing",
+      "description": "Community-Strategie für Discord, Slack oder Forum, um Word-of-Mouth und Community-Led-Growth aufzubauen.",
+      "category": "marketing",
+      "tags": [
+        "community",
+        "discord"
+      ],
+      "featured": false
+    },
+    {
+      "id": "competitor-profiling",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/competitor-profiling",
+      "name": "competitor-profiling",
+      "description": "Recherchiert und profiliert Wettbewerber anhand ihrer URLs zu strukturierten Profil-Dokumenten.",
+      "category": "marketing",
+      "tags": [
+        "wettbewerb",
+        "recherche"
+      ],
+      "featured": false
+    },
+    {
+      "id": "marketing-ideas",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/marketing-ideas",
+      "name": "marketing-ideas",
+      "description": "Liefert Marketing-Ideen und -Strategien als Ausgangspunkt, wenn nichts Konkretes ansteht.",
+      "category": "marketing",
+      "tags": [
+        "ideen",
+        "growth"
+      ],
+      "featured": false
+    },
+    {
+      "id": "marketing-plan",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/marketing-plan",
+      "name": "marketing-plan",
+      "description": "Erstellt einen umfassenden, nach AARRR strukturierten Marketing-Plan für Produkt oder Kunde.",
+      "category": "marketing",
+      "tags": [
+        "plan",
+        "aarrr"
+      ],
+      "featured": false
+    },
+    {
+      "id": "copy-editing",
+      "repo": "coreyhaines31/marketingskills",
+      "subdir": "skills/copy-editing",
+      "name": "copy-editing",
+      "description": "Überarbeitet und aktualisiert bestehende Marketing-Copy, statt sie neu zu schreiben.",
+      "category": "marketing",
+      "tags": [
+        "lektorat",
+        "copy"
+      ],
+      "featured": false
+    },
+    {
+      "id": "docx",
+      "repo": "anthropics/skills",
+      "subdir": "skills/docx",
+      "name": "docx",
+      "description": "Erstellt, liest und bearbeitet Word-Dokumente (.docx/.dotx) inklusive Formatierung, Vorlagen und Kommentaren.",
+      "category": "dokumente",
+      "tags": [
+        "word",
+        "dokument"
+      ],
+      "featured": true
+    },
+    {
+      "id": "pdf",
+      "repo": "anthropics/skills",
+      "subdir": "skills/pdf",
+      "name": "pdf",
+      "description": "Liest, erstellt, kombiniert und bearbeitet PDF-Dateien, inklusive Formularen und OCR für gescannte Seiten.",
+      "category": "dokumente",
+      "tags": [
+        "pdf"
+      ],
+      "featured": false
+    },
+    {
+      "id": "pptx",
+      "repo": "anthropics/skills",
+      "subdir": "skills/pptx",
+      "name": "pptx",
+      "description": "Erstellt und bearbeitet PowerPoint-Präsentationen (.pptx/.potx) inklusive Vorlagen und Sprechernotizen.",
+      "category": "dokumente",
+      "tags": [
+        "powerpoint",
+        "praesentation"
+      ],
+      "featured": false
+    },
+    {
+      "id": "xlsx",
+      "repo": "anthropics/skills",
+      "subdir": "skills/xlsx",
+      "name": "xlsx",
+      "description": "Erstellt und bearbeitet Excel-Dateien (.xlsx/.csv) — Formeln, Formatierung, Diagramme, Datenbereinigung.",
+      "category": "dokumente",
+      "tags": [
+        "excel",
+        "tabellen"
+      ],
+      "featured": false
+    },
+    {
+      "id": "canvas-design",
+      "repo": "anthropics/skills",
+      "subdir": "skills/canvas-design",
+      "name": "canvas-design",
+      "description": "Erstellt Poster und statische Design-Artefakte als PNG/PDF nach Design-Prinzipien, ohne fremde Werke zu kopieren.",
+      "category": "design",
+      "tags": [
+        "poster",
+        "design"
+      ],
+      "featured": false
+    },
+    {
+      "id": "frontend-design",
+      "repo": "anthropics/skills",
+      "subdir": "skills/frontend-design",
+      "name": "frontend-design",
+      "description": "Anleitung für eigenständiges visuelles Design bei neuen oder überarbeiteten UIs — Ästhetik, Typografie, Entscheidungen ohne Templated-Look.",
+      "category": "design",
+      "tags": [
+        "frontend",
+        "aesthetik"
+      ],
+      "featured": false
+    },
+    {
+      "id": "mcp-builder",
+      "repo": "anthropics/skills",
+      "subdir": "skills/mcp-builder",
+      "name": "mcp-builder",
+      "description": "Anleitung zum Bau hochwertiger MCP-Server für die Anbindung externer Dienste (Python/FastMCP oder Node/TypeScript).",
+      "category": "dev-tools",
+      "tags": [
+        "mcp",
+        "server"
+      ],
+      "featured": false
+    },
+    {
+      "id": "skill-creator",
+      "repo": "anthropics/skills",
+      "subdir": "skills/skill-creator",
+      "name": "skill-creator",
+      "description": "Legt neue Skills an, verbessert bestehende und misst ihre Trefferqualität via Evals.",
+      "category": "dev-tools",
+      "tags": [
+        "skill-erstellung",
+        "evals"
+      ],
+      "featured": true
+    },
+    {
+      "id": "webapp-testing",
+      "repo": "anthropics/skills",
+      "subdir": "skills/webapp-testing",
+      "name": "webapp-testing",
+      "description": "Werkzeugkasten für das Testen lokaler Web-Apps mit Playwright — Screenshots, Logs, UI-Debugging.",
+      "category": "dev-tools",
+      "tags": [
+        "playwright",
+        "testing"
+      ],
+      "featured": false
+    },
+    {
+      "id": "brand-guidelines",
+      "repo": "anthropics/skills",
+      "subdir": "skills/brand-guidelines",
+      "name": "brand-guidelines",
+      "description": "Wendet feste Markenfarben und Typografie auf ein Artefakt an, wenn Corporate-Design-Vorgaben gelten.",
+      "category": "dev-tools",
+      "tags": [
+        "branding",
+        "corporate-design"
+      ],
+      "featured": false
+    }
+  ]
+}
