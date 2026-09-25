@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-+w+fKwwvUSWWCveRso2KADvw5JYrs00XhgHx2BIuG5E='; style-src 'unsafe-inline'">
+<meta name="robots" content="noindex">
+<title>agent-deck Anmeldung</title>
+<style>body{font:15px/1.5 "Segoe UI",sans-serif;background:#111412;color:#e8ece9;margin:0;display:grid;place-items:center;min-height:100vh}p{max-width:32rem;padding:0 16px}</style>
+</head>
+<body>
+<p id="t">Du wirst zu agent-deck weitergeleitet. Falls nichts passiert: agent-deck muss laufen und auf die Anmeldung warten.</p>
+<script>(function(){var q=location.search;if(q&&/^\?[A-Za-z0-9_.~%=&+\-]*$/.test(q)){location.replace("http://127.0.0.1:47913/callback"+q)}else{document.getElementById("t").textContent="Diese Adresse enthaelt keine gueltige Anmeldung. Bitte in agent-deck erneut versuchen."}})()</script>
+</body>
+</html>
