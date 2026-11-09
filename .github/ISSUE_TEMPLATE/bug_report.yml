@@ -1,0 +1,18 @@
+name: Fehlerhafter Eintrag
+description: Ein Eintrag in index.json zeigt auf ein fehlendes Repo, einen falschen Pfad oder hat eine falsche Beschreibung
+labels: ["bug"]
+body:
+  - type: input
+    id: eintrag
+    attributes:
+      label: id des Eintrags
+      placeholder: "design-taste-frontend"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was stimmt nicht
+      description: Zum Beispiel "Installieren schlägt fehl, Repo nicht gefunden" oder "Beschreibung passt nicht zur SKILL.md"
+    validations:
+      required: true

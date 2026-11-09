@@ -70,3 +70,11 @@ GitHub-Suche).
 - Ein Eintrag entfernen bricht keine bestehende Installation (die läuft über
   `github:<owner>/<repo>/<pfad>` weiter) — nur die Sichtbarkeit in
   "Entdecken" verschwindet.
+
+## Beitragen
+
+Neue Einträge und Korrekturen sind willkommen, Hinweise in [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Lizenz
+
+MIT, siehe [LICENSE](./LICENSE). Die in `index.json` verlinkten Skills gehören ihren Autoren und stehen unter deren Lizenz.

@@ -1,0 +1,23 @@
+name: Skill vorschlagen
+description: Einen Skill für die Registry vorschlagen
+labels: ["enhancement"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repo
+      description: GitHub-Repo, das den Skill enthält
+      placeholder: "owner/name"
+    validations:
+      required: true
+  - type: input
+    id: subdir
+    attributes:
+      label: Pfad zur SKILL.md
+      description: Ordner relativ zum Repo-Root, leer wenn die SKILL.md im Root liegt
+  - type: textarea
+    id: warum
+    attributes:
+      label: Wofür der Skill gut ist
+    validations:
+      required: true
